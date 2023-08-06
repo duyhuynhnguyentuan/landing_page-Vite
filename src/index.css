@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Borel');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@1,500&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -11,11 +11,18 @@
   src: url('./fonts/Font_by_suahbi-Regular.ttf') format('truetype');
   /* Add other font formats if required */
 }
+@font-face {
+  font-family: 'Vividlyviethoa';
+  src: url('./fonts/Font_by_suahbi-Regular.ttf') format('truetype');
+  /* Add other font formats if required */
+}
 
 /* Apply the custom font to the entire document */
 :root {
   font-family: 'Font_by_suahbi', Arial, Helvetica, sans-serif;
-  font-family: 'Borel', Arial, Helvetica, sans-serif;
+  font-family: 'Livvic', Arial, Helvetica, sans-serif;
+  font-family: 'Vividlyviethoa', Arial, Helvetica, sans-serif;
+  
   /* You can use fallback fonts in case the custom font is not available */
   /* Other CSS variables and rules can also be defined here */
   color-scheme: light dark;

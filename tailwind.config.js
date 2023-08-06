@@ -8,7 +8,8 @@ export default {
     extend: {
       fontFamily:{
         primary: ['Font_by_suahbi', 'sans'],
-        secondary: ['Borel', 'sans']
+        secondary: ['Vividlyviethoa', 'sans'],
+        tertiary: ['Livvic', 'sans'],
       },
       animation:{
         'spin-cham': 'spin 6s 6s linear infinite',
