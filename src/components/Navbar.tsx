@@ -1,8 +1,24 @@
-
+import {motion} from "framer-motion"
 
 const Navbar = () => {
+  const navbarAnimation={
+    hidden:{
+      y:-100,
+    },
+    show:{
+      y:0,
+      transition:{
+        delay:3.9,
+        duration:0.5,
+      }
+    }
+  }
   return (
-    <nav className='flex justify-between items-center pt-4 text-black relative z-50'>
+    <motion.nav className='flex justify-between items-center pt-4 text-black relative z-50'
+    variants={navbarAnimation}
+    initial="hidden"
+    animate="show"
+    >
         <div>
             <h1 className='font-primary text-3xl'>Đám Mây</h1>
         </div>
@@ -14,7 +30,7 @@ const Navbar = () => {
         <div>
             <a href='#' className='text-lg font-semibold'>Contact</a>
         </div>
-    </nav>
+    </motion.nav>
   )
 }
 
