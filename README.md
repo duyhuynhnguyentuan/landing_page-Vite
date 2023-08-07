@@ -1,3 +1,4 @@
+Preview(not responsive): https://landing-page-vite-eight.vercel.app/
 ![image](https://github.com/duyhuynhnguyentuan/landing_page-Vite/assets/124075895/df62aeda-9d01-485c-9838-2a064b004072)
 
 
